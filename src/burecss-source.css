@@ -1,0 +1,98 @@
+/* Base and Reset Styles */
+*, *::before, *::after {
+    box-sizing: border-box;
+}
+
+body {
+    margin: 0;
+    font-family: 'Segoe UI', Roboto, Helvetica, Arial, sans-serif;
+    line-height: 1.6;
+    background-color: #f0f0f7;
+    color: #333;
+}
+
+/* Utility Classes */
+.flex {
+    display: flex;
+}
+
+.flex-column {
+    flex-direction: column;
+}
+
+.align-center {
+    align-items: center;
+}
+
+.justify-center {
+    justify-content: center;
+}
+
+.p-1 { padding: 8px; }
+.p-2 { padding: 16px; }
+.p-3 { padding: 24px; }
+.m-1 { margin: 8px; }
+.m-2 { margin: 16px; }
+.m-3 { margin: 24px; }
+
+.text-center { text-align: center; }
+.text-bold { font-weight: bold; }
+
+/* Buttons */
+.button {
+    padding: 10px 20px;
+    font-size: 16px;
+    font-weight: 600;
+    color: #fff;
+    background: linear-gradient(145deg, #6a82fb, #fc5c7d);
+    border: none;
+    border-radius: 8px;
+    cursor: pointer;
+    outline: none;
+    transition: transform 0.2s ease-in-out, box-shadow 0.3s ease-in-out;
+}
+
+.button:hover {
+    transform: translateY(-2px);
+    box-shadow: 0 10px 20px rgba(0,0,0,0.2);
+}
+
+.button:active {
+    transform: translateY(-1px);
+    box-shadow: 0 5px 10px rgba(0,0,0,0.15);
+}
+
+.button-primary {
+    background: linear-gradient(145deg, #0084ff, #0099ff);
+}
+
+.button-secondary {
+    background: linear-gradient(145deg, #555, #777);
+    color: #f0f0f0;
+}
+
+.button-alert {
+    background: linear-gradient(145deg, #e53935, #e35d5b);
+}
+
+/* Link Styling */
+a {
+    color: #007bff;
+    text-decoration: none;
+}
+
+a:hover {
+    text-decoration: underline;
+}
+
+/* Header and Footer */
+header, footer {
+    padding: 1rem;
+    background-color: #073042;
+    color: #fff;
+    text-align: center;
+}
+
+footer {
+    font-size: 0.875rem;
+}
