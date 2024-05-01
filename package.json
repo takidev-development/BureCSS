@@ -1,0 +1,16 @@
+{
+  "name": "burecss",
+  "version": "1.0.1",
+  "description": "A lightweight, utility-first CSS framework for rapid UI development.",
+  "main": "dist/burecss.css",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/yourusername/burecss.git"
+  },
+  "keywords": ["css", "framework", "utility-first", "responsive", "web design"],
+  "author": "Your Name",
+  "license": "MIT",
+  "files": [
+    "dist/burecss.css"
+  ]
+}
